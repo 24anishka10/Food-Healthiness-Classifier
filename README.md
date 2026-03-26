@@ -31,4 +31,7 @@ During training, the model adjusts the weights (w) and bias (b) whenever it make
 + README.md: Project documentation and setup guide.  
 ## Troubleshooting  
 - **Error: "No trained model found":** Ensure you run the train command first to create the weights.txt file.  
-* **Input Format:** Ensure all 5 nutritional values are provided as numbers (integers or floats).  
+* **Input Format:** Ensure all 5 nutritional values are provided as numbers (integers or floats).
+
+
+### Designed and developed by : Anishka Narang | 25BAI10513
