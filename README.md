@@ -6,18 +6,18 @@ Since this project uses only core Python syntax, no virtual environment or depen
 * Verify by running: python --version  
 ### 2. Training the Model  
 Before making predictions, you must train the model to "learn" the weights for each nutrient.  
-- &nbsp; python classify_food.py train  
+- &nbsp; py classify_food.py train  
 
 This will generate a weights.txt file in your directory containing the learned parameters.  
 ### 3. Running a Prediction  
 Use the --predict flag followed by the nutritional values for 100g of food.  
 
-**Format:** python classify_food.py predict [Calories] [Fat] [Sugar] [Sodium] [Protein]  
+**Format:** py classify_food.py predict [Calories] [Fat] [Sugar] [Sodium] [Protein]  
 
 **Example (Apple):**  
-&nbsp;&nbsp; python classify_food.py predict 52 0.2 10 1 0.3  
+&nbsp;&nbsp; py classify_food.py predict 52 0.2 10 1 0.3  
 **Example (Fried Snack):**  
-&nbsp;&nbsp; python classify_food.py predict 300 20 15 600 2  
+&nbsp;&nbsp; py classify_food.py predict 300 20 15 600 2  
 ## How it Works  
 The classifier uses the **Perceptron Learning Rule**. It treats the nutritional values as a feature vector (x) and calculates a weighted sum (z):  
 &nbsp;&nbsp;&nbsp; z=(w1*cal)+(w2*fat)+(w3*sugar)+(w4*sod)+(w5*prot)+b  
