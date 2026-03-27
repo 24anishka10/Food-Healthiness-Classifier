@@ -1,5 +1,3 @@
-# No 'import' statements allowed per your request
-
 class FoodModel:
     def __init__(self):
         # Weights: [Calories, Fat, Sugar, Sodium, Protein] + Bias
